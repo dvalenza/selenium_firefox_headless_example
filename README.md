@@ -11,16 +11,9 @@ wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodrive
 Extract the file with:
 
 tar -xvzf geckodriver*
-Make it executable:
 
 chmod +x geckodriver
 Add the driver to your PATH so other tools can find it:
 
-export PATH=$PATH:/path-to-extracted-file/geckodriver
+export PATH=$PATH:/path-to-extracted-file
 
-
-
-
-
-import into path using:
-export PATH=$PATH:/
